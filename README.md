@@ -3,6 +3,8 @@
 
 ## 201907
 
+### 7月第三周
+
 * [不是程序员的程序员](https://mp.weixin.qq.com/s/aEVRaqbuxPxeQwW3ewCqnA)
 本文来自微信公众号InfoQ，是一个有关编程方面的公众号，涉及广泛，大家可以关注一下。
 这篇文章主要讲的是，沟通 (communication)在我们领域的重要性。
