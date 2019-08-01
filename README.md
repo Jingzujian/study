@@ -24,3 +24,22 @@
 1.页面内容不能有背景色或背景图！
 2.body自身也不能有背景图！
 本文讲诉了更好的办法去控制它。
+
+### 七月第四周
+
+* [小技巧](https://www.cnblogs.com/ljwsyt/p/9516416.html)
+本文讲述的是一些特殊知识的妙用，有关JavaScript的。
+
+* [当你输入一个网址的时候，实际会发生什么?](https://www.cnblogs.com/wenanry/archive/2010/02/25/1673368.html)
+本文主要讲述网络模块是如何协同工作的(url解析的过程)
+
+* [HTML渲染过程详解](https://www.cnblogs.com/dojo-lzz/p/3983335.html)
+本文主要从以下五个方面去讲解了HTML渲染的过程
+1.解析HTML
+2.构建DOM树
+3.DOM树与CSS样式进行附着构造呈现树
+4.布局
+5.绘制
+
+* [【CSS进阶】CSS 颜色体系详解](https://www.cnblogs.com/coco1s/p/5622534.html)
+本文从几个方面详细的对css颜色进行了讲解，以及可以通过对颜色的一些控制，达到特定的效果等。
