@@ -45,10 +45,17 @@
 本文从几个方面详细的对css颜色进行了讲解，以及可以通过对颜色的一些控制，达到特定的效果等。
 
 ### 8月第一周
-+ 第一步：下载homebrew，将以下链接放入终端中执行，公司的网比较差，用自己的wifi热点
+
+#### mac无法利用node安装sass时该怎么办
++ 第一步：检查电脑是否有brew
+```
+brew -v
+```
+若不是命令语句则说明没有，则下载homebrew，将以下链接放入终端中执行，公司的网比较差，用自己的wifi热点
 ``` 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+若有，则直接进行第二步
 + 第二步：安装node，终端直接输入
 ```
 brew install node
@@ -56,5 +63,9 @@ brew install node
 检查是否安装完成，请输入
 ```
 node -v
+```
++ 第三步：安装sass，在终端输入
+```
+npm install -g sass
 ```
 npm是node的包管理工具，所以下node的时候，npm也自带下载下来了
