@@ -99,3 +99,5 @@ node -v
 npm install -g sass
 ```
 npm是node的包管理工具，所以下node的时候，npm也自带下载下来了
+
+#### 如何将自己包传到npm服务器上
