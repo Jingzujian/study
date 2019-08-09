@@ -120,6 +120,7 @@ npm set registry https://registry.npm.taobao.org
 npm --registry=https://registry.npm.taobao.org
 ```
 __注意：设置npm的源，可以设置多个源，但是只有一个是生效的（最后一个设置的为准），若公司有镜像源则可以设置为公司，也可以设置为其他的，这里以淘宝的镜像源为例__
+__公司的私有地址为 http://nexushost.paas.x__
 
 #### mac无法利用node安装sass时该怎么办
 + 第一步：检查电脑是否有brew
