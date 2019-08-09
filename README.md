@@ -45,8 +45,9 @@
 本文从几个方面详细的对css颜色进行了讲解，以及可以通过对颜色的一些控制，达到特定的效果等。
 
 ### 8月第一周
-#### 什么是NPM（npm使用介绍）
-NPM是随同NodeJS一起安装的包管理工具，能解决NodeJS代码部署上的很多问题，常见的使用场景有以下几种：
+#### 什么是npm（npm使用介绍）
+node package manager:node 包管理工具
+npm是随同NodeJS一起安装的包管理工具，能解决NodeJS代码部署上的很多问题，常见的使用场景有以下几种：
 + 允许用户从NPM服务器下载别人编写的第三方包到本地使用。
 + 允许用户从NPM服务器下载并安装别人编写的命令行程序到本地使用。
 + 允许用户将自己编写的包或命令行程序上传到NPM服务器供别人使用。
@@ -56,6 +57,21 @@ C:\Users\Administrator>npm -v
 6.2.0
 ```
 __注意：在使用npm命令时，如果直接从国外的仓库下载依赖，下载速度很慢，甚至会下载不下来，我们可以更换npm的仓库源，提高下载速度。__
+
+#### 怎么用npm
+下载包
+```
+npm install <packagename>
+```
+删除包
+```
+npm unistall <packagename>
+```
+安装包下载安装在当前目录下node_modules特殊文件夹中。
+登录
+```
+npm login
+```
 
 #### 如何修改镜像源
 1、先查看自己的镜像源
@@ -76,6 +92,7 @@ npm set registry https://registry.npm.taobao.org
 npm --registry=https://registry.npm.taobao.org
 ```
 __注意：设置npm的源，可以设置多个源，但是只有一个是生效的（最后一个设置的为准），若公司有镜像源则可以设置为公司，也可以设置为其他的，这里以淘宝的镜像源为例__
+
 #### mac无法利用node安装sass时该怎么办
 + 第一步：检查电脑是否有brew
 ```
