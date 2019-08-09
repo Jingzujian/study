@@ -68,10 +68,38 @@ npm install <packagename>
 npm unistall <packagename>
 ```
 安装包下载安装在当前目录下node_modules特殊文件夹中。
+创建npm账号
+```
+npm adduser
+```
 登录
 ```
 npm login
 ```
+发布
+```
+npm publish
+```
+#### 如何发布
+初始化一个项目
+```
+npm init
+```
+创建一个名为XX.js文件
+可利用vi编辑器
+可运行一下看js文件是否成功
+```
+node XX.js
+```
+登录npm,输入创建时的账号密码邮箱
+```
+npm login
+```
+发布包
+```
+npm publish
+```
+__注意：如果项目里有部分私密的代码不想发布到npm上，可以将它写入.gitignore 或.npmignore中，上传就会被忽略了__
 
 #### 如何修改镜像源
 1、先查看自己的镜像源
@@ -117,4 +145,3 @@ npm install -g sass
 ```
 npm是node的包管理工具，所以下node的时候，npm也自带下载下来了
 
-#### 如何将自己包传到npm服务器上
