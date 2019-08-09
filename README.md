@@ -68,6 +68,7 @@ npm install <packagename>
 npm unistall <packagename>
 ```
 安装包下载安装在当前目录下node_modules特殊文件夹中。
+
 创建npm账号
 ```
 npm adduser
