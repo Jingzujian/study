@@ -147,6 +147,9 @@ npm install -g sass
 ```
 npm是node的包管理工具，所以下node的时候，npm也自带下载下来了
 
+* [windows下Gulp安装](https://www.cnblogs.com/liubin0509/p/5710822.html)
+本文讲述了windows下的gulp安装，对npm也进行了介绍
+
 ### 8月第三周
 #### HTML DOM树
 通过 HTML DOM，树中的所有节点均可通过 JavaScript 进行访问。所有 HTML 元素（节点）均可被修改，也可以创建或删除节点。
